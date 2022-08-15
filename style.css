@@ -1,0 +1,264 @@
+/* INDEX*/
+
+
+.body{
+height: 100vh;
+height: 100vw;
+margin: 0;
+}
+
+.bg{
+background-image: url(../PraticaCSS220307/images/background2.jpg);
+}
+
+.title{
+background-image: url(../PraticaCSS220307/images/parchmentbackground.jpg);
+color: yellowgreen;
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: green;
+font-family: 'Lobster', cursive;
+box-sizing: border-box;
+text-align: center;
+height: 5%;
+font-size: 250px;;
+height: 10%;
+margin-left: 5%;
+margin-right: 5%;
+border-radius: 15px;
+margin-bottom: 1%;
+margin-top: 1%;
+}
+
+.menu{
+box-sizing: border-box;    
+background-image: url(../PraticaCSS220307/images/parchmentbackground.jpg);
+box-sizing: border-box;
+width: 90%;
+height: 40px;
+margin-left: auto;
+margin-right: auto;
+border-radius: 15px;
+padding:1px;
+}
+
+
+.faixa-de-conteudo{
+box-sizing: border-box;
+width: 100%;
+height: 700px;    
+border-radius: 15px;
+padding:45px;
+}
+
+
+.news-menu{
+box-sizing: border-box;
+background-image:url(../PraticaCSS220307/images/parchmentbackground.jpg);
+font-family: 'Lobster', cursive;
+width: 15%;
+height: 600px;;    
+border-radius: 15px;
+position: absolute;
+margin-left: auto;
+margin-bottom: 5%;
+color:green
+}
+
+
+
+.fan-art{
+box-sizing: border-box;
+background-image:url(../PraticaCSS220307/images/parchmentbackground.jpg);
+font-family: 'Lobster', cursive;
+width: 15%;
+padding:solid;
+height: 600px;    
+border-radius: 15px;   
+position: absolute;
+margin-left: 80vw;
+margin-right: auto;
+}
+
+
+.video-block{
+box-sizing: border-box;
+background-image:url(../PraticaCSS220307/images/parchmentbackground.jpg);
+font-family: 'Lobster', cursive;
+width: 55%;
+padding:solid;
+height: 600px;     
+border-radius: 15px;
+position: absolute;
+margin-left: 20vw;
+margin-right: 20vw;
+}
+
+.img{
+height: 20%;
+width: 40%;
+border: 5px solid green;
+border-radius: 10px;
+margin-left: 8px;
+transition: 0.3s;   
+}
+img:hover{opacity: 0.5;}
+
+
+.linkMenu{
+font-family: 'Lobster', cursive;
+text-align:center;
+margin-right: 10px;
+margin-left: 10px;
+box-sizing:border-box;
+font-size: 30px;padding: 30px;
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: green;
+color: yellowgreen;
+text-decoration: none;
+}
+.linkMenu:hover{
+color: white;
+
+}
+
+
+.linkNewsMenu{
+color:yellowgreen;
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: green;
+padding:5px solid; font-size: 50px;
+margin-right: auto; margin-left: 25%;
+text-align: center;
+text-decoration: none;
+}
+
+.linkNews{
+color: green;
+padding:5px solid;
+font-size: 115%;
+padding:15px;
+text-decoration: none;
+}
+
+.linkFanArt{
+color:yellowgreen;
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: green;
+padding:5px solid; font-size: 50px;
+margin-right: auto;
+margin-left: 20%;
+text-align: center;
+position: relative;
+bottom: 3px;
+text-decoration: none;
+}
+
+.linkHome{
+text-decoration: none;
+}
+
+
+.footer{
+background-color: white;
+width: 100%;
+height: 10%;
+border: 5px solid dashed;
+border-radius: 15px;
+}
+
+
+
+/*NEWSFEED*/
+
+.bg{
+background-image: url(../PraticaCSS220307/images/background2.jpg);
+
+}
+
+.news-menu2{
+background-image:url(../PraticaCSS220307/images/parchmentbackground.jpg);
+display: block;
+box-sizing: border-box;
+width: 15%;
+margin:5% 3%;
+height: 1000px;
+border-radius: 15px;
+}
+
+
+.newsfeed{
+background-image:url(../PraticaCSS220307/images/parchmentbackground.jpg);
+display: block ;
+box-sizing: content-box;
+width: 78%; 
+height:2080px;
+margin-left: 20%;
+position: relative;
+bottom: 2160px;
+border-radius: 15px;
+}
+
+
+.linkNews-2{
+font-family: 'Lobster', cursive;
+color: green;
+padding:5px solid;
+font-size: 115%;
+padding:15px;
+text-decoration: none;
+}
+
+.textonly{
+box-sizing: content-box;
+text-align: justify;
+font-family: 'Lobster', cursive;
+font-size: 130%;
+padding: 4%;
+}
+
+.imagenews{
+}
+
+.videonews{
+}
+
+.fan-art-2{
+box-sizing: border-box;
+background-image:url(../PraticaCSS220307/images/parchmentbackground.jpg);
+font-family: 'Lobster', cursive;
+width: 95%;
+padding:solid;
+height: 150px;    
+border-radius: 15px;   
+margin: auto;
+display: block;
+position: relative;
+bottom: 2150px;
+}
+
+.linkFanArt-2{
+font-size: 500%;
+color:yellowgreen;
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: green;
+padding:5px solid; 
+text-align: center;
+position: relative;
+bottom: 3px;
+text-decoration: none;
+padding-left: 35% ;
+
+}
+
+.linkHome-2{
+font-size: 500%;
+color:yellowgreen;
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: green;
+padding:5px solid; 
+text-align: center;
+position: relative;
+bottom: 3px;
+text-decoration: none;
+padding-left: 35% ;
+}
